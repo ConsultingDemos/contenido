@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Super Agentathon</title>
+<style>
+*{box-sizing:border-box;}
+body{margin:0;font-family:"Segoe UI",Arial,sans-serif;background:#fff8f8;color:#572333;}
+/* HERO */
+.hero{text-align:center;padding:55px 20px 65px;background:linear-gradient(180deg,#ffffff 0%,#fff3f4 100%);position:relative;overflow:hidden;}
+.eyebrow{color:#F25B66;font-size:14px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;}
+.hero h1{margin:0;font-size:clamp(42px,7vw,76px);line-height:.95;letter-spacing:-3px;font-weight:800;color:#572333;}
+.hero h1 span{color:#F25B66;}
+.hero p{max-width:600px;margin:20px auto 28px;color:#76515c;font-size:18px;line-height:1.5;}
+/* FORM CTA */
+.form-cta{max-width:700px;margin:0 auto;padding:25px;background:#572333;border-radius:22px;color:white;box-shadow:0 15px 35px rgba(87,35,51,.18);}
+.form-cta strong{display:block;font-size:22px;margin-bottom:4px;}
+.form-cta p{color:#ffe6e8;margin:5px auto 18px;font-size:15px;}
+.form-button{display:inline-block;background:#F25B66;color:#ffffff;text-decoration:none;font-size:18px;font-weight:800;padding:17px 30px;border-radius:12px;box-shadow:0 7px 0 #bd3f4b;transition:.2s;}
+.form-button:hover{transform:translateY(-3px);box-shadow:0 10px 0 #bd3f4b;}
+/* TIPS */
+.content{max-width:1100px;margin:auto;padding:55px 22px;}
+.title{text-align:center;margin-bottom:30px;}
+.title h2{margin:0;font-size:34px;}
+.title p{color:#87616b;margin-top:8px;}
+.tips{display:grid;grid-template-columns:repeat(5,1fr);gap:15px;}
+.tip{background:#ffffff;border:1px solid #f2d9dc;border-radius:18px;padding:23px 18px;box-shadow:0 8px 25px rgba(87,35,51,.06);}
+.number{width:42px;height:42px;display:flex;align-items:center;justify-content:center;background:#F25B66;color:white;border-radius:50%;font-weight:800;margin-bottom:16px;}
+.tip h3{font-size:18px;margin:0 0 8px;}
+.tip p{color:#76515c;font-size:14px;line-height:1.45;margin:0;}
+/* FINAL CTA */
+.final{margin-top:50px;padding:45px 25px;text-align:center;background:#F25B66;border-radius:25px;color:white;}
+.final h2{font-size:36px;margin:0 0 10px;}
+.final p{max-width:550px;margin:0 auto 22px;font-size:17px;}
+.final .form-button{background:white;color:#572333;box-shadow:0 7px 0 #ffc1c5;}
+/* RESPONSIVE */
+@media(max-width:900px){.tips{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:520px){.tips{grid-template-columns:1fr;}.hero h1{font-size:46px;}.form-button{width:100%;}}
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="eyebrow">SUPER AGENTATHON</div>
+  <h1>5 SUPERPODERES<br>PARA TU <span>AGENTE</span></h1>
+  <p>Una buena idea es solo el principio. Activa estos cinco poderes para crear un agente útil, claro y preparado para entrar en acción.</p>
+  <div class="form-cta">
+    <strong>⭐ Tu opinión tiene superpoderes</strong>
+    <p>Cuéntanos qué te ha parecido el Agentathon. Solo te llevará un momento.</p>
+    <a class="form-button" href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=3uW4OsVyiEG4MBgqZ6rtQ4dC55RsU-hCiYKZuNTh6g5UNE5EQ0E3NUM3OFlTRUJRRUJTT0UyUjBROS4u&amp;embed=true" target="_blank" rel="noopener">VALORA EL AGENTATHON →</a>
+  </div>
+</section>
+<main class="content">
+<section>
+  <div class="title">
+    <h2>Activa tus 5 superpoderes</h2>
+    <p>Cinco claves para llevar tu agente al siguiente nivel.</p>
+  </div>
+  <div class="tips">
+    <div class="tip"><div class="number">1</div><h3>🎯 Define su misión</h3><p>Explica qué problema resuelve, para quién trabaja y qué resultado debe conseguir.</p></div>
+    <div class="tip"><div class="number">2</div><h3>⚡ Dale instrucciones</h3><p>Define cómo debe actuar, qué pasos seguir y cómo quieres que responda.</p></div>
+    <div class="tip"><div class="number">3</div><h3>📚 Amplía su conocimiento</h3><p>Conecta fuentes fiables y relevantes para que tenga el contexto que necesita.</p></div>
+    <div class="tip"><div class="number">4</div><h3>🛡️ Ponlo a prueba</h3><p>Utiliza situaciones reales, preguntas diferentes y casos límite antes de compartirlo.</p></div>
+    <div class="tip"><div class="number">5</div><h3>🚀 Mejora sus poderes</h3><p>Revisa respuestas, recoge feedback y evoluciona continuamente tu agente.</p></div>
+  </div>
+</section>
+<section class="final">
+  <h2>Antes de volver a salvar el mundo...</h2>
+  <p>Déjanos tu opinión sobre el Agentathon. Tus respuestas nos ayudan a hacer la próxima misión todavía mejor.</p>
+  <a class="form-button" href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=3uW4OsVyiEG4MBgqZ6rtQ4dC55RsU-hCiYKZuNTh6g5UNE5EQ0E3NUM3OFlTRUJRRUJTT0UyUjBROS4u&amp;embed=true" target="_blank" rel="noopener">⭐ DAR MI OPINIÓN</a>
+</section>
+</main>
+</body>
+</html>
